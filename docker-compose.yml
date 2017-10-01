@@ -47,7 +47,7 @@ services:
       - proxy-tier
 
   www23:
-    image: drupal:7
+    image: drupal:8
     container_name: www23
     environment:
       - VIRTUAL_HOST=www2.ranqiangjun.com,www3.ranqiangjun.com
